@@ -21,7 +21,7 @@ To use this plugin, add guitar_chord_library as a dependency in your [pubspec.ya
 
 ```dart
 void main() {
-  /// your favour instrument
+  /// your favourite instrument
   /// InstrumentType.guitar
   /// InstrumentType.ukulele
   var instrument = GuitarChordLibrary.instrument(InstrumentType.guitar);
@@ -29,7 +29,7 @@ void main() {
   /// instrument string count
   print(instrument.stringCount);
 
-  /// all marjor keys
+  /// all major keys
   print(instrument.getKeys()); //use sharp
   print(instrument.getKeys(true)); //use flat
 
